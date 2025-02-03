@@ -1,0 +1,19 @@
+{
+    "name": "burhan/belajar-php-composer-library",
+    "description": "belajar membuat library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "burhanudinm81",
+            "email": "burhanudinm81@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Burhan\\Belajar\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
